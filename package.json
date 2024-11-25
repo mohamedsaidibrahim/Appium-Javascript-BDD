@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testAndroid": "npx wdio wdio.android.conf.js",
+    "testIOS":"npx wdio wdio.ios.conf.js",
+    "AllureReports":"npm run wdio -- --reporter allure && allure generate reports/allure-results --clean && allure open"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "description": "",
   "devDependencies": {
     "@wdio/allure-reporter": "^9.2.14",
