@@ -1,0 +1,20 @@
+{
+  "name": "appiumjavascriptchallenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.2.14",
+    "@wdio/cucumber-framework": "^9.3.1",
+    "@wdio/local-runner": "^9.3.1",
+    "appium": "^2.12.1",
+    "chai": "^5.1.2",
+    "webdriverio": "^9.3.1"
+  }
+}
